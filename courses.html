@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>courses</title>
+    <link rel="stylesheet" href="../../style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img class="logooo" src="res/section2GMCLogo.png" width="70px" height="70px" alt="" class="clover"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                      <a class="nav-link" href="index.html">Home</a>
+                      
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="courses.html">Courses</a>
+                     
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="contact.html">Contact </a>
+                       
+                      </li>
+                  </ul>
+                </div>
+              </nav>
+    <center>
+        <h1 class="pp">COURSES</h1> <br>
+        <h2>FEEDBACK</h2> <br>
+        <div>
+            <div class="info">
+                <div id="ex1" class="modal">
+                    <p class="hell">if you open this  you will die.
+                        you just opened the gates of hell.
+                        shinigames will reclame your soul.
+                        you will be haunted to the end of your life.
+                        hhhhhhh you have no place to hide.
+                        they will destroy you .if you think your smart enough that means your an idiot.
+                        you will not escape , this is your destiny.
+                        just accept it because
+                        it's over omae wa mou shindeiru.</p>
+                </div>
+                <div class="b"><a href="#ex1" rel="modal:open"><button class="btn" id="btn1">View more</button><img
+                            class="b1" id="b1" src="xayah.JPG" class="img-fluid" alt=""></a>
+                </div>
+                <div class="b"><a href="#ex1" rel="modal:open"><button class="btn" id="btn2">View
+                            more</button><img class="b1" id="b2" src="vayne.JPG" class="img-fluid" alt=""></a></div>
+                <div class="b"><a href="#ex1" rel="modal:open"><button class="btn" id="btn3">View
+                            more</button><img class="b1" id="b3" src="twitch.JPG" class="img-fluid" alt=""></a></div>
+            </div>
+            <div class="info">
+                <div id="ex1" class="modal">
+                    <p class="hell">if you open this you will die.
+                        you just opened the gates of hell.
+                        shinigames will reclame your soul.
+                        you will be haunted to the end of your life.
+                        hhhhhhh you have no place to hide.
+                        they will destroy you .if you think your smart enough that means your an idiot.
+                        you will not escape , this is your destiny.
+                        just accept it because
+                        it's over omae wa mou shindeiru.</p>
+                </div>
+                <div class="b"><a href="#ex1" rel="modal:open"><button class="btn" id="btn4">View
+                            more</button><img class="a1" id="a1" src="tokyo ghoul.JPG" class="img-fluid" alt=""></a>
+                </div>
+                <div class="b"><a href="#ex1" rel="modal:open"><button class="btn" id="btn5">View more</button>
+                        <img class="a1" id="a2" src="fizz.JPG" class="img-fluid" alt=""></a></div>
+                <div class="b"><a href="#ex1" rel="modal:open"><button class="btn" id="btn6">View more</button>
+                        <img class="a1" id="a3" src="death note.JPG" class="img-fluid" alt=""></a></div>
+            </div>
+        </div>
+        <button id="b" onclick="bold()">B</button>
+        <button id="i" onclick="italic()">I</button>
+        <button id="u" onclick="underline()">Underline</button>
+        <select id="input-size" onchange="changesize (this)">
+            <option value="20px">20px</option>
+            <option value="30px">30px</option>
+            <option value="40px">40px</option>
+        </select>
+        <select id="input-font" onchange="changefont (this)">
+            <option value="Arial">Arial</option>
+            <option value="Verdana">Verdana</option>
+            <option value="Geneva">Geneva</option>
+        </select><br>
+        <textarea class="sheldon" id="texto" cols="50" rows="5"> </textarea>
+    </center>
+</body>
+<script src="C:\Users\LENOVO\Desktop\GOMYCODE\test\js/main.js"></script>
+
+</html>
